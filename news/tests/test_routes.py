@@ -77,6 +77,3 @@ class TestRoutes(TestCase):
                 response = self.client.get(url)
                 # Проверяем, что редирект приведёт именно на указанную ссылку.
                 self.assertRedirects(response, redirect_url)
-
-
-
